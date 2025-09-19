@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - Whisperly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: slideUp 0.8s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 2;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .last-updated {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.4rem;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e0e0;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 1.1rem;
+            margin: 20px 0 10px 0;
+            font-weight: 600;
+        }
+
+        p, li {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        ul {
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #3498db;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .email-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .email-link:hover {
+            color: #2c3e50;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 10px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">🎵 Whisperly</div>
+            <div class="subtitle">Terms and Conditions</div>
+        </header>
+
+        <main class="content">
+            <div class="last-updated">
+                <strong>Last Updated:</strong> September 19, 2025
+            </div>
+
+            <div class="highlight">
+                <p><strong>Welcome to Whisperly!</strong> By using our audio subscription service, you agree to be bound by these Terms and Conditions. Please read them carefully before using our platform.</p>
+            </div>
+
+            <h2>1. Acceptance of Terms</h2>
+            <p>By accessing or using Whisperly ("the Service"), you agree to comply with and be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, please do not use the Service.</p>
+
+            <h2>2. Description of Service</h2>
+            <p>Whisperly is an audio subscription platform that provides users with access to premium audio content, including podcasts, audiobooks, music, and other audio entertainment. Our service offers various subscription tiers with different features and content access levels.</p>
+
+            <h2>3. User Accounts</h2>
+            <h3>3.1 Registration</h3>
+            <p>To access certain features of Whisperly, you must create an account by providing accurate and complete information. You are responsible for maintaining the confidentiality of your account credentials.</p>
+            
+            <h3>3.2 Account Responsibility</h3>
+            <p>You are solely responsible for all activities that occur under your account. You must notify us immediately of any unauthorized use of your account.</p>
+
+            <h3>3.3 Age Requirements</h3>
+            <p>You must be at least 13 years old to use Whisperly. Users under 18 require parental consent.</p>
+
+            <h2>4. Subscription Plans and Billing</h2>
+            <h3>4.1 Subscription Tiers</h3>
+            <p>Whisperly offers multiple subscription plans with varying features, content access, and pricing. Current plans and pricing are available on our website and may be updated from time to time.</p>
+
+            <h3>4.2 Billing</h3>
+            <ul>
+                <li>Subscriptions are billed in advance on a recurring basis (monthly or annually)</li>
+                <li>Payment is due at the beginning of each billing cycle</li>
+                <li>We accept major credit cards and other payment methods as indicated</li>
+                <li>All fees are non-refundable unless otherwise stated</li>
+            </ul>
+
+            <h3>4.3 Price Changes</h3>
+            <p>We reserve the right to modify subscription prices with 30 days' notice to existing subscribers. Price changes will not affect your current billing cycle.</p>
+
+            <h2>5. Content and Usage Rights</h2>
+            <h3>5.1 Licensed Content</h3>
+            <p>All audio content on Whisperly is licensed for personal, non-commercial use only. You may not redistribute, broadcast, or share content outside the platform.</p>
+
+            <h3>5.2 Offline Access</h3>
+            <p>Certain subscription tiers allow offline downloading for personal use. Downloaded content expires based on your subscription status and licensing agreements.</p>
+
+            <h3>5.3 Content Availability</h3>
+            <p>Content availability may vary by region and may be removed or modified without notice due to licensing restrictions.</p>
+
+            <h2>6. User Conduct</h2>
+            <p>You agree not to:</p>
+            <ul>
+                <li>Share your account credentials with others</li>
+                <li>Attempt to circumvent technical measures protecting content</li>
+                <li>Use automated systems to access the service</li>
+                <li>Engage in any activity that disrupts or interferes with the service</li>
+                <li>Violate any applicable laws or regulations</li>
+            </ul>
+
+            <h2>7. Cancellation and Termination</h2>
+            <h3>7.1 Cancellation by User</h3>
+            <p>You may cancel your subscription at any time through your account settings. Cancellation takes effect at the end of your current billing period.</p>
+
+            <h3>7.2 Termination by Whisperly</h3>
+            <p>We may suspend or terminate your account for violation of these Terms, non-payment, or other legitimate business reasons.</p>
+
+            <h2>8. Privacy and Data Protection</h2>
+            <p>Your privacy is important to us. Our collection and use of personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference.</p>
+
+            <h2>9. Intellectual Property</h2>
+            <p>All content, trademarks, and intellectual property on Whisperly are owned by us or our licensors. You may not use our intellectual property without explicit written permission.</p>
+
+            <h2>10. Disclaimers and Limitations of Liability</h2>
+            <h3>10.1 Service Availability</h3>
+            <p>While we strive for continuous service availability, we do not guarantee uninterrupted access and may perform maintenance that temporarily affects service.</p>
+
+            <h3>10.2 Limitation of Liability</h3>
+            <p>To the fullest extent permitted by law, Whisperly shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the service.</p>
+
+            <h2>11. Governing Law and Disputes</h2>
+            <p>These Terms are governed by the laws of [Your Jurisdiction]. Any disputes will be resolved through binding arbitration or in the courts of [Your Jurisdiction].</p>
+
+            <h2>12. Changes to Terms</h2>
+            <p>We may update these Terms from time to time. We will notify users of significant changes via email or platform notification. Continued use after changes constitutes acceptance of the new Terms.</p>
+
+            <h2>13. Contact Information</h2>
+            <div class="contact-info">
+                <h3>Questions about these Terms?</h3>
+                <p>Contact us at: <a href="mailto:legal@whisperly.com" class="email-link">legal@whisperly.com</a></p>
+                <p>Or visit our support center for additional help.</p>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Whisperly. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
